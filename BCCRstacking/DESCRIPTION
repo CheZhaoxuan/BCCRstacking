@@ -1,0 +1,21 @@
+Package: BCCRstacking
+Type: Package
+Title: A Genome Selection Method Based on Stacking and Compressed Components
+Version: 0.1.0
+Author: Mengjin Zhu
+Maintainer: Mengjin Zhu <zhumengjin@mail.hzau.edu.cn>
+Description: calculation of GEBV based on gradient boosting compressed component regression algorithm and stacking ensemble learning algorithm
+License: GPL
+Encoding: UTF-8
+LazyData: true
+Imports:
+  Rcpp,
+  Rfast,
+  RcppEigen,
+  StepReg,
+  grpreg,
+  glmnet,
+  gbm,
+  elasticnet,
+  Matrix
+RoxygenNote: 7.1.1
